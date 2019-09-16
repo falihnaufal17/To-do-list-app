@@ -1,0 +1,26 @@
+{
+  "name": "to-do-list-app",
+  "version": "1.0.0",
+  "description": "Test berkatsoft",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falihnaufal17/To-do-list-app.git"
+  },
+  "author": "Falih Naufal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/falihnaufal17/To-do-list-app/issues"
+  },
+  "homepage": "https://github.com/falihnaufal17/To-do-list-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1"
+  }
+}
