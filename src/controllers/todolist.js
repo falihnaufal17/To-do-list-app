@@ -28,7 +28,7 @@ module.exports = {
             })
     },
     addTodo: (req, res) => {
-        let dateNow = moment(new Date().getTime()).format('HH:mm')
+        let dateNow = moment(new Date().getTime()).format('HH:mm:ss')
         const data = {
             nama_peserta: req.body.nama_peserta,
             kegiatan: req.body.kegiatan,
